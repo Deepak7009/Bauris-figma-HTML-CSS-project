@@ -1,0 +1,259 @@
+html,body{
+    background: rgba(1, 25, 37, 1);
+}
+/*navbar*/
+#top-nav{
+    padding: 0 8%;
+}
+.collapse .navbar-nav a.active{
+    border-top: 3px solid #45E0FE;
+}
+#nav-ul{
+    padding: 0 23%;
+    font-family: 'Circular Std';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+/*button*/
+#btn{
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: 'Circular Std';
+    font-size: 13px;
+    line-height: 18px;
+    color: #45E0FE;
+}
+/*hero content*/
+#h3{
+    margin-top: 30px;
+    font-family: 'Circular Std';
+}
+#h1{
+    font-family: 'Circular Std';
+    font-size: 85px !important;
+    margin-top: -3%;
+
+}
+#p{
+    margin-top: -1%;
+    line-height: 18px;
+}
+/*rectangle*/
+#tiger{
+    position:absolute;
+    width: 448px;
+    height:310px;
+    left: 13%;
+    top: 300px;
+    border-radius: 10px;
+}
+#play-btn{
+    position: absolute;
+    background: #011925;
+    font-size: 25px;
+    border: 8px solid rgba(69, 224, 254, 0.5036);
+    border-radius: 50%;
+    left: 45.20%;
+    top: 53.40%;
+    width: 70px;
+    height: 70px;
+}
+#shape{
+    position: absolute;
+    left: 56%;
+    top: 315px;
+    height: 40px;
+}
+#col-5-2p{
+    position: absolute;
+    top: 380px;
+    left: 56%;
+    font-family: 'Circular Std';
+    font-size: 17px;
+}
+#btn-2{
+    position: absolute;
+    border: none;
+    background: none;
+    font-family: 'Circular Std';
+    font-size: 13px;
+    line-height: 18px;
+    top: 510px;
+    left: 55.40%;
+    color: #FFFFFF;
+}
+#icon{
+    position: absolute;
+    color:#45E0FE;
+    left: 74px;
+}
+/*bitmap*/
+#cl-5{
+    position:absolute;
+    width: 350px;
+    height:250px;
+    left: 13%;
+    top: 700px;  
+}
+#bit-col-5-1p{
+    position: absolute;
+    top: 90px;
+    left: 3%;
+    font-family: 'Circular Std';
+    font-size:17px;
+    width: 448px;
+}
+#btn-3{
+    position: absolute;
+    border: none;
+    background: none;
+    font-family: 'Circular Std';
+    font-size: 13px;
+    line-height: 18px;
+    top: 220px;
+    left:2%;
+    color: #FFFFFF;
+}
+#cl-5-2{
+    position:absolute;
+    width: 448px;
+    height:250px;
+    left: 49.30%;
+    top: 700px;
+}
+#bit-1{
+    border-radius: 10px;
+}
+#play-btn-2{
+    position: absolute;
+    background: #011925;
+    font-size: 25px;
+    border: 8px solid rgba(69, 224, 254, 0.5036);
+    border-radius: 50%;
+    right: 90.20%;
+    top: 45%;
+    width: 70px;
+    height: 70px;
+}
+/*changelly*/
+#changelly{
+    position:absolute;
+    width: 448px;
+    height:310px;
+    left: 13%;
+    top: 1050px;  
+}
+#play-btn-3{
+    position: absolute;
+    background: #011925;
+    font-size: 25px;
+    border: 8px solid rgba(69, 224, 254, 0.5036);
+    border-radius: 50%;
+    left: 89%;
+    top: 28.50%;
+    width: 70px;
+    height: 70px;
+}
+#group{
+    position: absolute;
+    left: 56%;
+    top: 135%;
+}
+#chan-col-5-1p{
+    position: absolute;
+    top: 145%;
+    left: 56%;
+    font-family: 'Circular Std';
+    font-size: 17px;
+}
+#btn-4{
+    position: absolute;
+    border: none;
+    background: none;
+    font-family: 'Circular Std';
+    font-size: 13px;
+    line-height: 18px;
+    top: 162%;
+    left:55.60%;
+    color: #FFFFFF;
+}
+/*CTA*/
+#CTA{
+    position: absolute;
+    top: 1350px;
+}
+#cta-h2{
+    position: absolute;
+    left: 27%;
+    top: 50%;
+    font-size: 40px;
+}
+#btn-cta{
+    position: absolute;
+    left: 62%;
+    top: 60%;
+    font-size: 15px;
+    background: linear-gradient(135deg, #30B9E8 0%, #17A1D0 100%);
+    box-shadow: 0px 0px 32px rgba(23, 161, 208, 0.502841);
+    border-radius: 4px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Circular Std';
+}
+/*footer*/
+#footer{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.319193);
+    width: 100.75%;
+    top: 1630px;
+    height: 50%;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+#foot-p{
+    position: absolute;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    line-height: 18px;
+    left: 12%;
+    top: 25%;
+}
+#foot-img{
+    position: absolute;
+    left: 12%;
+}
+#hr-line{
+    position:absolute;
+    left: 12%;
+    padding-right: 10px;
+    right: 90%;
+    width: 80%;
+    top: 54.05%;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+}
+#foot-h5{
+    position:absolute;
+    left: 24.19%;
+    margin-top: 50px;
+    font-family: 'Circular Std';
+    font-size: 15px;
+    color: #9FD3ED;
+}
+.col-2 a{
+    position: absolute;
+    padding-top: 1.70%;
+    text-decoration: none;
+}
+#footer-2{
+    position: absolute;
+    width: 50%;
+    top: 1840px;
+}
+.col-2{
+    margin-left: -15px;
+}
